@@ -41,17 +41,26 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 local-*
-.claude
+# Skills directory
+/skills/
+
+# Gemini AI / Antigravity
+.gemini/
+.claude/
 .z-ai-config
+.accesslog
+.stats
+.continue/
+.config/
+Caddyfile
 *.log
 dev.log
 dev.out.log
-test
-prompt
-
 server.log
-# Skills directory
-/skills/
+
+# OS
+.DS_Store
+Thumbs.db
 
 # AI and Tooling
 .agents/
